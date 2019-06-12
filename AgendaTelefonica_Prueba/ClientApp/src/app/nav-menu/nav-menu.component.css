@@ -1,0 +1,130 @@
+li .glyphicon {
+    margin-right: 10px;
+}
+
+/* Highlighting rules for nav menu items */
+li.link-active a,
+li.link-active a:hover,
+li.link-active a:focus {
+    background-color: #4189C7;
+    color: white;
+}
+
+/* Keep the nav menu independent of scrolling and on top of other items */
+.main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+@media (min-width: 768px) {
+    /* On small screens, convert the nav menu to a vertical sidebar */
+    .main-nav {
+        height: 100%;
+        width: calc(25% - 20px);
+    }
+    .navbar {
+        border-radius: 0px;
+        border-width: 0px;
+        height: 100%;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-collapse {
+        border-top: 1px solid #444;
+        padding: 0px;
+    }
+    .navbar ul {
+        float: none;
+    }
+    .navbar li {
+        float: none;
+        font-size: 15px;
+        margin: 6px;
+    }
+    .navbar li a {
+        padding: 10px 16px;
+        border-radius: 4px;
+    }
+    .navbar a {
+        /* If a menu item's text is too long, truncate it */
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+/*= Botones Menú ===============================================================================================================*/
+.btn-1 > a {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c65dc5+0,9f0b71+100 */
+  background: #c65dc5; /* Old browsers */
+  background: -moz-linear-gradient(top, #c65dc5 0%, #9f0b71 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #c65dc5 0%,#9f0b71 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #c65dc5 0%,#9f0b71 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c65dc5', endColorstr='#9f0b71',GradientType=0 ); /* IE6-9 */
+  text-shadow: 2px 2px 2px #000;
+}
+
+.btn-2 > a {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#63c8ff+0,056bff+100 */
+  background: #63c8ff; /* Old browsers */
+  background: -moz-linear-gradient(top, #63c8ff 0%, #056bff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #63c8ff 0%,#056bff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #63c8ff 0%,#056bff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63c8ff', endColorstr='#056bff',GradientType=0 ); /* IE6-9 */
+  text-shadow: 2px 2px 2px #000;
+}
+
+.btn-3 > a {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#398cf7+0,1053aa+100 */
+  background: #398cf7; /* Old browsers */
+  background: -moz-linear-gradient(top, #398cf7 0%, #1053aa 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #398cf7 0%,#1053aa 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #398cf7 0%,#1053aa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#398cf7', endColorstr='#1053aa',GradientType=0 ); /* IE6-9 */
+  text-shadow: 2px 2px 2px #000;
+}
+
+.btn-4 > a {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#57ccb2+0,266b5c+100 */
+  background: #57ccb2; /* Old browsers */
+  background: -moz-linear-gradient(top, #57ccb2 0%, #266b5c 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #57ccb2 0%,#266b5c 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #57ccb2 0%,#266b5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57ccb2', endColorstr='#266b5c',GradientType=0 ); /* IE6-9 */
+  text-shadow: 2px 2px 2px #000;
+}
+
+.btn-5 > a {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7e482+0,e0b401+100 */
+  background: #f7e482; /* Old browsers */
+  background: -moz-linear-gradient(top, #f7e482 0%, #e0b401 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f7e482 0%,#e0b401 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f7e482 0%,#e0b401 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7e482', endColorstr='#e0b401',GradientType=0 ); /* IE6-9 */
+  text-shadow: 2px 2px 2px #000;
+}
+
+.btn-6 > a {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f1b469+0,d58118+100 */
+  background: #f1b469; /* Old browsers */
+  background: -moz-linear-gradient(top, #f1b469 0%, #d58118 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f1b469 0%,#d58118 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f1b469 0%,#d58118 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1b469', endColorstr='#d58118',GradientType=0 ); /* IE6-9 */
+  text-shadow: 2px 2px 2px #000;
+}
+
+.fondo {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+50,207cca+51,7db9e8+100;Blue+Gloss+%232 */
+  background: #3b679e; /* Old browsers */
+  background: -moz-linear-gradient(top, #3b679e 0%, #2b88d9 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+/*==============================================================================================================================*/
